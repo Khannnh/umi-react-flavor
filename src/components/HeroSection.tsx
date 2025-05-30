@@ -22,41 +22,15 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Content - Code Screenshot */}
+          {/* Right Content - Illustration Image */}
           <div className="lg:order-last order-first">
             <div className="relative">
-              <div className="bg-gray-900 rounded-lg shadow-2xl overflow-hidden">
-                <div className="flex items-center space-x-2 px-4 py-3 bg-gray-800">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                </div>
-                <div className="p-6 text-sm font-mono">
-                  <div className="text-purple-400">import</div>
-                  <div className="text-blue-400 ml-4">{"{ useState, useEffect }"}</div>
-                  <div className="text-purple-400">from</div>
-                  <div className="text-green-400 ml-2">'react';</div>
-                  <div className="mt-2 text-purple-400">const</div>
-                  <div className="text-yellow-400 ml-2">GadgetTracker</div>
-                  <div className="text-white ml-2">=</div>
-                  <div className="text-blue-400 ml-2">() =></div>
-                  <div className="text-white ml-2">{"{"}</div>
-                  <div className="ml-4 mt-1 text-purple-400">const</div>
-                  <div className="text-blue-400 ml-2">[devices, setDevices]</div>
-                  <div className="text-white ml-2">=</div>
-                  <div className="ml-4 text-yellow-400">useState</div>
-                  <div className="text-white">([]);</div>
-                  <div className="ml-4 mt-2 text-purple-400">return</div>
-                  <div className="text-white ml-2">{"("}</div>
-                  <div className="ml-6 mt-1 text-green-400">{"<div>"}</div>
-                  <div className="ml-8 text-green-400">{"<h1>"}</div>
-                  <div className="text-white">Track Gadgets</div>
-                  <div className="text-green-400">{"</h1>"}</div>
-                  <div className="ml-6 text-green-400">{"</div>"}</div>
-                  <div className="ml-4 text-white">{")"}</div>
-                  <div className="text-white">{"}"}</div>
-                </div>
-              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="Gadget tracking illustration"
+                className="w-full h-auto rounded-lg shadow-2xl"
+              />
+              <div className="absolute inset-0 bg-blue-900 bg-opacity-20 rounded-lg"></div>
             </div>
           </div>
         </div>
